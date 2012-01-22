@@ -1,54 +1,73 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
+<html>
 
 <head>
-	<title>Codesters-Home</title>
 
-	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Codesters-Home</title>
+	<meta name="description" content="We are passionate software developers and hackers from India. Some of us are students and always learning new technologies and tinkering with them. Visit our Projects page to take a look at our currrent projects.">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="css/stylet.css">
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+
 
 </head>
-
 <body>
-	<header>
-		<h1>C O D E S T E R S <sub>v 2.0</sub></h1>
+	<div id="header-container">
+	<header class="wrapper clearfix">
+		<h1 id="title">C O D E S T E R S <sub>v 2.0</sub></h1>
 		<nav>
 			<ul>
-				<li><a href="home.html">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="projects.html">Projects</a></li>
 				<li><a href="members.html">Members</a></li>
 			</ul>
 		</nav>
 	</header>
-	<div class="content">
-		<article>
-			<p style="font-size:54pt;font-family:MS Sans Serif;color:#CC2900">Learning.</p>
-			<p style="font-size:54pt;font-family:MS Sans Serif;color:silver">Coding.</p>
-			<p style="font-size:54pt;font-family:MS Sans Serif;color:darkgreen">Creating.</p>
-			<br/>
-			<p>Striving to learn technologies being used to develop web apps, mobile apps and other softwares, our main aim is to share our knowledge and collaborate on different projects and enhance our programming and developing skills.</p>
-		</article>
-		
-		<aside>
-			
-			<h2>Whats New ??</h2>
-			<p>We are organizing a meetup for students of Amity University, Haryana the coming month of Feb. For more information, you can contact us on our <a href="https://www.facebook.com/Codesterz">Facebook</a> or <a href="https://plus.google.com/u/0/108859583868109504830/">Google+</a> page.
-			<p>Get started !!!</p>
-			<h3><a href="https://docs.google.com/spreadsheet/viewform?formkey=dG1teHhVNWMzSzBncUhGcnhINFF2Zmc6MQ">Become a Member</a></h3>
-		<aside>
 	</div>
 
-	<footer>
-		<ul>
-			<li><a href="about.html">About Us</a></li>
-			<li><a href="http://codesters.org/blog">Blog</li>
-			<li><a href="#">Github Profile</a></li>
-			<li><a href="rules.html">Guidlines</a></li>
-		</ul>		
-	</footer>
+	<div id="main-container">
+		<div id="main" class="wrapper clearfix">
+
+			<article>
+				<header>				
+					<p class="slogan">Learning</p>
+					<p class="slogan">Coding</p>
+					<p class="slogan">Creating</p>
+				</header>
+				<section>
+					<p>Striving to learn technologies being used to develop web apps, mobile apps and other softwares, our main aim is to share our knowledge and collaborate on different projects and enhance our programming and developing skills.</p>
+				</section>
+			</article>
+		
+			<aside>
+				<h2>Whats New ??</h2>
+				<p>We are organizing a meetup for students of Amity University, Haryana in the coming month of Feb. For more information, you can contact us on our <a href="https://www.facebook.com/Codesterz">Facebook</a> or <a href="https://plus.google.com/u/0/108859583868109504830/">Google+</a> page.
+				<p>Get started !!!</p>
+				<h3><a href="https://docs.google.com/spreadsheet/viewform?formkey=dG1teHhVNWMzSzBncUhGcnhINFF2Zmc6MQ">Become a Member</a></h3>
+		
+			</aside>
+			
+		</div> <!-- #main -->
+	</div> <!-- #main-container -->
+
+	<div id="footer-container">
+		<footer>
+			<ul>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="http://codesters.org/blog">Blog</li>
+				<li><a href="https://github.com/codesters/codesters.org">Github</a></li>
+				<li><a href="rules.html">Guidelines</a></li>
+				<li><a href="versions.html">Versions</a></li>
+			</ul>		
+		</footer>
+	</div>
 
 </body>
 

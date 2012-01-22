@@ -56,7 +56,7 @@ a:hover,footer a:hover,nav a:hover{
 	}
 p,li{
 	font-family:MS Sans Serif;
-	
+	color:white;
 	text-align:justify;
 	letter-spacing:1px;
 	line-height:23px;
