@@ -21,7 +21,7 @@ a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
 /*******kkk starts*******/
-aside a,aside a:hover, aside a:visited, footer a,footer a:hover, footer a:visited{
+aside a,aside a:hover, aside a:visited{
 	color:white;
 }
 
@@ -95,7 +95,6 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 	width:90%;
 	margin:0 5%;
 }
-
 
 /* ===================
     ALL: Orange Theme
@@ -239,16 +238,6 @@ nav a:hover{
 		float:right;
 		width:38%;
 	}
-	#footer-container ul li{
-		float:left;
-		display:inline;
-		margin:0.2em 0.8em;
-		
-		
-	}
-	#footer-container {
-		padding-bottom:20px;
-	}
 
 /* ============
     WIDE: Main
@@ -293,4 +282,3 @@ nav a:hover{
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-		

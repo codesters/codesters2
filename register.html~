@@ -1,0 +1,69 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>codesters - register</title>
+	<meta name="description" content="Codesters is a group initiated by a bunch of tech addicts with a view to provide a common platform for others of our kind to brainstorm on various projects. Connect with us if you want to learn, share and develop. Register here">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+<body>
+
+	<div id="header-container">
+		<header class="wrapper clearfix">
+			<h1 id="title">codesters v1.1</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="members.html">Members</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div id="main-container">
+		<div id="main" class="wrapper clearfix">
+			
+			<article>
+				<section>
+					<h1>register with us</h1>
+					<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dG1teHhVNWMzSzBncUhGcnhINFF2Zmc6MQ" width="760" height="871" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+				</section>
+				
+			</article>
+			
+			<aside>
+				<h3>whats new?</h3>
+				<p>Our first overnight coding event. We will develop and deploy two small scale websites based on HTML, CSS and JavaScript. For more information, you can contact us on our <a href="https://www.facebook.com/Codesterz">Facebook</a> or <a href="https://plus.google.com/u/0/108859583868109504830/">Google+</a> page.</p>
+				<h3><a href="https://docs.google.com/spreadsheet/viewform?formkey=dG1teHhVNWMzSzBncUhGcnhINFF2Zmc6MQ">Click Here to Become a Member</a> 
+					</h3>
+			</aside>
+			
+		</div> <!-- #main -->
+	</div> <!-- #main-container -->
+
+	<div id="footer-container">
+		<footer class="wrapper">
+			<ul>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="guide.html">Guidelines</a></li>
+				<li><a href="http://codesterz.blogspot.com">Blog</a></li>
+				<li><a href="http://github.com/codesters">Github</a></li>
+				<li><a href="http://trello.com/codesters">Trello</a></li>
+
+			</ul>
+		</footer>
+	</div>
+
+</body>
+</html>

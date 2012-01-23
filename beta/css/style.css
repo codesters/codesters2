@@ -14,13 +14,14 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+
+a { color: #800000; }
+a:visited { color: #cd853f; }
+a:hover { color: #a0522d; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
-/*******kkk starts*******/
+/*******kkk starts*******
 aside a,aside a:hover, aside a:visited, footer a,footer a:hover, footer a:visited{
 	color:white;
 }
@@ -39,7 +40,7 @@ footer ul{
 	
 }
 
-/*******end kkk*******/
+*******end kkk*******/
 
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: bold; }
@@ -96,22 +97,29 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 	margin:0 5%;
 }
 
-
 /* ===================
-    ALL: Orange Theme
+    ALL: Gray Theme
    =================== */
 
-#header-container{ border-bottom: 20px solid #e44d26; }
-#footer-container{ border-top:    20px solid #e44d26; }
-#main aside      { border-top:    20px solid #e44d26; }
-
-#header-container,
-#footer-container,
-#main aside{
-	background:#f16529;
+html{
+	background:#dcdcdc;
 }
 
-#title{ color:white; }
+
+
+#main-container {
+	background:#ffffff;
+}
+#header-container{ border-bottom: 20px solid #000000;}
+#footer-container{ border-top:    20px solid #000000; }
+#main aside      { border-top:    20px solid #000000; }
+
+
+#header-container, #main aside,
+#footer-container, footer, footer ul {
+	background:#DCDCDC;
+}
+
 
 ::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
 ::selection      { background: #f16529; color: #fff; text-shadow: none; }
@@ -119,23 +127,21 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 /* ==============
     MOBILE: Menu
    ============== */
-
+nav ul, nav ol, { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 nav a{
 	display:block;
 	margin-bottom:10px;
 	padding:15px 0;
 
-	background:#e44d26;
-	color:white;
+	background:#dcdcdc;
+	color:#800000;
 
 	text-align:center;
 	text-decoration:none;
 	font-weight:bold;
 }
-
-
 nav a:hover, nav a:visited{
-	color:white;
+	color:#cd853f;
 }
 
 nav a:hover{
@@ -155,12 +161,12 @@ nav a:hover{
 }
 
 #main aside{
-	color:white;
+	color:#000000;
 	padding:0px 5% 10px;
 }
 
 #footer-container footer{
-	color:white;
+	color:#000000;
 	padding:20px 0;
 }
 
@@ -239,16 +245,6 @@ nav a:hover{
 		float:right;
 		width:38%;
 	}
-	#footer-container ul li{
-		float:left;
-		display:inline;
-		margin:0.2em 0.8em;
-		
-		
-	}
-	#footer-container {
-		padding-bottom:20px;
-	}
 
 /* ============
     WIDE: Main
@@ -263,6 +259,20 @@ nav a:hover{
 		float:right;
 		width:28%;
 	}
+	nav ul li, footer ul li {
+		margin: 0 1em;
+		display: inline;
+	}
+	footer ul {
+		float: left;
+	}
+	nav ul {
+		float: right;	
+	}
+	#footer-container {
+	
+	font-size:1.5em;
+}
 }
 
 @media only screen and (min-width: 1140px) {
@@ -293,4 +303,3 @@ nav a:hover{
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
-		
