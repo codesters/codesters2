@@ -1,0 +1,136 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { 
+	font-size: 100%;
+	overflow-y: scroll; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+
+body { 
+	color: #fff;
+	background-color: #2e8b57;
+	margin: 0;
+	line-height: 1.231;
+}
+body, button, input, select, textarea { font-family: sans-serif; }
+
+a { color: #fff; }
+a:visited { color: #fff; }
+a:hover { color: #ccc; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
+
+.wrapper{
+	width:90%;
+	margin:0 5%;
+}
+aside ul {
+	list-style:none;
+}
+
+#main ul li {
+	display:inline;
+	padding:0 0.5em;
+}
+#wantto ul li {
+	display:block;
+}
+
+/**********heeeeeeeeeeel
+******************/
+
+#main article header {
+	display:none;
+}
+
+/**********
+	Color Theme
+	*************/
+
+#header-container, #iam, #doing, #wantto, #tech, aside {
+	border-radius: 5px;
+}
+#header-container {
+	background-color:#251117;
+}
+#main article header {
+	background-color:#ff0000;
+}
+aside {
+	background-color:#af7817;
+}
+
+#iam {
+	background-color:#c85a17;
+}
+#doing {
+	background-color:#800517;
+}
+#wantto {
+	background-color:#25383c;
+}
+#tech {
+	background-color:#254117;
+}
+/*
+#main article section {
+	background-color:#ff0000;
+}
+*/
+/**********
+	Mobile
+	*************/
+	
+
+#header-container, #footer-container, aside {
+	padding:1em;
+}
+#header-container, #footer-container, aside {
+	margin:0.8em 0;
+}
+#main article header, #main article section {
+	margin:0.8em 0;
+	padding:1em;
+}
+aside ul li {
+	padding: 0.5em 0;
+	background-color: #222222;
+	margin:0.2em 0;
+	text-align:center;
+	font:2.5em bold;
+	border-radius: 10px;
+	
+}
+
+#title {
+	font-weight:bold;
+	font-style:italic;
+	font-size:3em;
+	text-align:center;
+}
+
+#name {
+	font-weight:bold;
+}
+#main h1 {
+	font-size:0.8em;
+	font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+

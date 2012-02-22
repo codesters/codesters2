@@ -1,0 +1,170 @@
+body
+{
+	background-image:url('images/style.jpg');
+}
+h1
+{
+	font-family:narkisim;
+	font-size:72px;
+	margin-top:2%;
+	text-align:center;
+	
+}
+span
+{
+	display:block; font-size:36px; text-align:center; 
+}
+#main
+{
+	width:70%;
+	height:150%;
+	margin-left:10%;
+	margin-top:10%;
+	margin-bottom:2%;
+	float: center;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5%;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+}
+
+#name
+{
+	width:90%;
+	background-color:#000000;
+	color:#ffffff;
+	padding-left:5%;
+	padding-right:5%;
+	clear: both;
+	display:block;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+#basic
+{
+	width:90%;
+	background-color:#2a2e37;
+	color:#bacbc5;
+	padding-left:5%;
+	padding-right:5%;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+#goal
+{
+	width:90%;
+	background-color:#000000;
+	color:#ffffff;
+	padding-left:5%;
+	padding-right:5%;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+#education
+{
+	width:90%;
+	background-color:#2a2e37;
+	color:#bacbc5;
+	padding-left:5%;
+	padding-right:5%;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+#skills
+{
+	width:90%;
+	background-color:#000000;
+	color:#ffffff;
+	padding-left:5%;
+	padding-right:5%;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+#social
+{
+	width:90%;
+	background-color:#2a2e37;
+	color:#ffffff;
+	padding-left:5%;
+	padding-right:5%;
+	margin-top:5%
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+h2
+{
+	font-family:georgia;
+	font-size:45px;
+	clear:both;
+	margin-left:5%; color:#ffffff;
+
+}
+h3
+{
+	font-family:verdana;
+	font-size:30px;
+}
+p
+{
+	font-family: inherit;
+	font-size:24px;
+	text-align:right;
+	display:block;
+}
+div .content
+{
+	clear: both;
+	overflow:hidden;
+	display:block;
+}
+
+#social img
+{
+	display:inline;
+	float:center;
+	width:32px;
+	height:32px;
+	border:1px #ffffff;
+}
+#social img:hover
+{
+	box-shadow:10px 10px 5px #888888;
+	display:inline;
+}
+
+li
+{
+	list-style-type:square;
+	overflow:hidden;	
+	display:block;
+	width:40%;
+	float:left;
+	font-size:24px;
+}
